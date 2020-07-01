@@ -186,6 +186,11 @@ main(int argc, char *argv[])
 	    (total_ingr_inteira + preco_inteira);
 
 	/* instruções para o relatório */
+	printf("Número de ingressos inteiros: %d\n", total_ingr_inteira);
+	printf("Número de ingressos meia: %d\n", total_ingr_meia);
+	printf("Número de ingressos vendidos: %d\n", total_vendidos);
+	printf("Valor total de ingressos vendidos: %.2f\n", total_valor_vendidos);
+	printf("Número de lugares não ocupados: %d\n", qtd_disp_asse);
 
 	return (0);
 }
